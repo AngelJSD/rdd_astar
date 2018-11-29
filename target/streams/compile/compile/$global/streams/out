@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m/home/hduser/sparksample/src/main/scala/SparkPi.scala:33:18: not enough arguments for method apply: (graph: org.apache.spark.graphx.Graph[VD,ED], initialMsg: A, maxIterations: Int, activeDirection: org.apache.spark.graphx.EdgeDirection)(vprog: (org.apache.spark.graphx.VertexId, VD, A) => VD, sendMsg: org.apache.spark.graphx.EdgeTriplet[VD,ED] => Iterator[(org.apache.spark.graphx.VertexId, A)], mergeMsg: (A, A) => A)(implicit evidence$1: scala.reflect.ClassTag[VD], implicit evidence$2: scala.reflect.ClassTag[ED], implicit evidence$3: scala.reflect.ClassTag[A])org.apache.spark.graphx.Graph[VD,ED] in object Pregel.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter initialMsg.[0m
+[0m[[0m[31merror[0m] [0m[0m		var g3 = Pregel(g.mapVertices([0m
+[0m[[0m[31merror[0m] [0m[0m		               ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
